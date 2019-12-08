@@ -1,0 +1,45 @@
+/* *{
+    
+    box-sizing: border-box;
+} */
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #cecece;
+}
+
+#maindiv {
+    position: relative;
+}
+
+#ball {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: fixed;
+    background-color: gold;
+    left: 50%;
+    top: 20px;
+}
+
+#rod1, #rod2 {
+    height: 20px;
+    width: 200px;
+    left: 44%;
+    position: fixed;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#rod1 {
+    background-color: red;
+    top: 0%;
+}
+
+#rod2 {
+    background-color: blue;
+    top: 95%;
+}
